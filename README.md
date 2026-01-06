@@ -104,7 +104,7 @@ MediaPipe Pose 출력과 보행 분류 모델 입력을 맞추기 위해 다음 
 - **Scaling**
   - 뼈 길이 기반 scale normalization
 - **Sequence Length 통일**
-  - 모든 시퀀스를 고정 길이(기본 90 frame)로 통일
+  - 모든 시퀀스를 고정 길이(기본 100 frame)로 통일
   - 부족한 경우 zero padding, 초과 시 crop
 
 출력: LSTM 입력용 CSV 파일
